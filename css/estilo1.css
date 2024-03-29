@@ -1,27 +1,131 @@
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+*{
+    margin: 0px;
+    padding: 0px;
+    /* color:aliceblue; */
 }
 
-.poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
+body{
+    background-color: #212529;
+}
+
+.gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
 
 .row{
-    background-color: gold;
-    margin: 5px;
+    background-color: lightblue;
+    /* margin: 5px; */
+}
+.row>*{
+    padding: 0px;
 }
 .col{
     background-color: rgb(183, 183, 204);
     margin: 5px;
+}
+
+h1{
+    text-transform: capitalize;
+    /* text-align: left; */
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 40px;
+    padding-left: 25px;
+}
+.minuscula{
+    text-transform: lowercase;
+}
+.Titulo-encabezado{
+    background-color: rgb(218, 219, 220);
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+}
+.logo{
+    width: 130px;
+    height: 130px;
+    
+}
+.titulo2{
+    padding-left: 25px;
+}
+.formulario{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contactanos{
+    width: 40%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+
+/* Bootstrap */
+.d-block {
+    height: 70vh;
+}
+.cards{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards-container{
+    background-color: #555a5e;
+}
+.card{
+    margin: 10px;
+}
+
+
+
+/* Pie de pagina */
+.footer-d-a{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:100px 0;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background: #212529;
+}
+.copyright{
+    color: cornsilk;
+    width: 100%;
+}
+.politica-priv{
+    color: cornsilk;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.terminos-con{
+    color: cornsilk;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+    .d-block {
+        height: 40vh;
+    }
+    body {
+      background-color: lightblue;
+    }
 }
