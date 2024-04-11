@@ -1,0 +1,4 @@
+Del proyecto " turismo en semana santa en Bolivia", las opciones en el menu...en total son 4 paginas: index:  pag1: , pag2: y pag3: 
+Incluir al menos 5 componentes distinto del navbar: acordiones, tarjetas, modales, etc...
+Incluir fuentes de google fonts
+Pagina funcional subida a github pages
